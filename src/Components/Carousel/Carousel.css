@@ -1,0 +1,37 @@
+.CtnBannerDescripcionMarca{
+	position: relative;
+	height: 50% !important;
+	z-index: 0;
+}
+.CtnBannerDescripcionMarca {
+	position:relative;
+}
+.CtnBannerDescripcionMarca  .carousel-control-prev,
+.CtnBannerDescripcionMarca  .carousel-control-next{
+	display: none;
+}
+
+.CtnBannerDescripcionMarca > .carousel-indicators {
+	bottom:-5px;
+}
+.CtnBannerDescripcionMarca > .carousel-indicators > li{
+	
+	border-radius: 100%;
+	width: 8px;
+	border:none;
+	height: 8px;
+	background: #000;
+	opacity: .4;
+}
+.CtnBannerDescripcionMarca > .carousel-indicators > li.active{
+	background: #fff;
+	opacity: .8;
+}
+@media (min-width: 1200px){
+    .CtnBannerDescripcionMarca{
+		/*max-height: 400px !important;*/
+	}
+	.CtnBannerDescripcionMarca .carousel-item > img{
+		/*max-height: 400px !important;*/
+	}
+}

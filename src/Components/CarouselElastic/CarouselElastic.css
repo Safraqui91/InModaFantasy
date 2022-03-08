@@ -1,0 +1,14 @@
+.margin1{
+    border-block-end: 2px solid #CACACA;
+    border-inline-end: 2px solid #CACACA;
+}
+.margin2{
+    border-block-end: 2px solid #CACACA;
+}
+.margin3{
+    border-inline-end: 2px solid #CACACA;
+}
+
+.position-loadding{
+    position: relative;
+}

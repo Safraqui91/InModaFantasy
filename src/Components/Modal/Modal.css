@@ -1,0 +1,14 @@
+
+.modal-content{
+	margin: 0px !important;
+	border-radius: 20px !important;
+	overflow-y: scroll;
+}
+.modal-backdrop{
+	background: #c5c0c9;
+	background-color:none;
+	opacity: .5;
+}
+.modal-body{
+	padding: 20px !important;
+}

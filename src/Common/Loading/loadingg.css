@@ -1,0 +1,6 @@
+.loading{
+    margin: auto;
+    position: absolute;
+    inset: 0px;
+    z-index: 2;
+}

@@ -1,0 +1,339 @@
+
+ /*Contenedor Principal*/
+.ContenedorRegistro{
+    display:flex;
+    flex: 1;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}
+
+ /*Contenedor Formulario*/
+
+.ContenedorRegistro .Col1{
+    justify-content: center;
+    background: #fff;
+    height: 100%;
+    display: flex;
+    position: relative;
+    
+}
+.ContenedorFormularioRegistro{
+    padding-left: 10px !important;
+}
+.ContenedorFormularioRegistro .lblTitulo{
+    font-weight: 900; 
+    font-size: large;
+    margin-bottom: 5px !important;
+    margin-top: 25px !important;
+}
+.ContenedorFormularioRegistro .auxLabel{
+    font-weight: normal !important; 
+    font-size: xx-small;
+    
+}
+.ContenedorFormularioRegistro hr{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+ /*Datos de la cuenta*/
+.ContenedorDatosCuenta .row{
+    margin-bottom: 2px;
+}
+.ContenedorDatosCuenta .row .form-control{
+    height: 22px;
+    border-radius: 0%;
+}
+.ContenedorDatosCuenta .labelContainer{
+    display: flex !important;
+    align-items: center !important;
+}
+.ContenedorDatosCuenta .label{
+    font-size: smaller;
+    align-self: center;
+}
+.ContenedorDatosCuenta .helpText{
+    font-size: xx-small;
+    color: #bbb;
+    height: 28px;
+}
+ /*Datos personales*/
+ .ContenedorDatosPersonales{
+     margin-bottom: 15px;
+ }
+ /*.ContenedorDatosPersonales .row{
+    margin-bottom: 2px !important;
+    
+}*/
+.ContenedorDatosPersonales .row .form-control{
+    height: 22px;
+    border-radius: 0%;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.ContenedorDatosPersonales .labelContainer{
+    display: flex !important;
+    align-items: center !important;
+}
+.ContenedorDatosPersonales .label{
+    font-size: smaller;
+    align-self: center;
+}
+.ContenedorDatosPersonales .selectContainer{
+    padding-right: 5px;
+}
+.ContenedorDatosPersonales .select{
+    padding: 0px;
+}
+.ContenedorDatosPersonales .form-check{
+    margin-top: 10px ;
+    font-size: small;
+
+}
+.ContenedorDatosPersonales .form-check-input:checked{
+   background-color: #e3097e;
+
+}
+/*Contenedor Datos Empresa*/
+
+.ContenedorDatosEmpresa .row{
+    margin-bottom: 2px !important;
+    
+}
+.ContenedorDatosEmpresa .row .form-control{
+    height: 22px;
+    border-radius: 0%;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.ContenedorDatosEmpresa .labelContainer{
+    display: flex !important;
+    align-items: center !important;
+}
+.ContenedorDatosEmpresa .label{
+    font-size: smaller;
+    align-self: center;
+}
+.ContenedorDatosEmpresa .selectContainer{
+    padding-right: 5px;
+}
+.ContenedorDatosEmpresa .select{
+    padding: 0px;
+}
+.ContenedorDatosEmpresa .form-check{
+    margin-top: 10px ;
+    font-size: small;
+
+}
+ /*Contenedor Pie Formulario*/
+ .ContenedorPieFormulario{
+     margin-bottom: 50px;
+ }
+ .buttonGeneral{
+    display: inline-block;
+    padding: 5px;
+    border:1px solid #e3097e;
+    color:#e3097e;
+    background: none;
+    font-weight: 1000;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+ }
+ .ContenedorPieFormulario div.button{
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    border:1px solid #e3097e;
+    color:#e3097e;
+    background: none;
+    font-weight: 1000;
+    margin-top: 10px;
+    margin-right: 10px;
+ }
+ .ContenedorPieFormulario span{
+     font-size: small;
+ }
+ /*Contenedor Relleno*/
+
+ .ContenedorCentrado{
+     margin-bottom: 20px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+.ContenedorRegistro .Col2{
+    display:none;
+    background-image: url('../../Global/Images/FondoPrincipalHome.png');
+	background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100%;
+    min-height:calc(100vh - 122px);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* contenido ayuda */
+.ContenedorRegistro .CtnAyuda{
+	width: 100%;
+	color:#777;
+    position: absolute;
+    bottom: 50px;
+    max-width: 300px;
+}
+ .CtnAyuda .CtnAyudaTexto{
+	text-align: center;
+	width: 100%;
+}
+ .Col2 .CtnAyuda .CtnAyudaImg{
+	text-align: center;
+}
+ .Col2 .CtnAyuda .CtnAyudaImg > div{
+	width: 12%;
+	margin-right: 1%;
+	margin-left: 1%;
+	display: inline-block;
+	position: relative;
+}
+ .CtnAyuda .CtnAyudaImg > div > img{
+	width: 100%;
+	position: absolute;
+	top:-40px;
+	left: 0px;
+}
+ .CtnAyuda .CtnAyudaImg > span{
+	width: 43%;
+	border:1px solid #777;
+	display: inline-block;
+	content: '';	
+}
+.CtnAyuda .CtnAyudaTexto > p{
+	padding-bottom: 10px;
+    border-bottom: 2px solid #777;
+    font-size: large;
+
+}
+
+/* Contenedor Lineas */
+
+.ContenedorRegistro .ContenedorLineas{
+    height: calc(100vh - 68px);
+    position: absolute;
+    right: calc((((100vh - 68px)/9) - 10px )/-2);
+    display: flex;
+    flex-direction: column;
+}
+.ContenedorRegistro .ContenedorLineas .ContenedorLinea{
+    flex: 1;
+    width: calc(((100vh - 68px)/9) - 10px);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContenedorRegistro .green{
+    background-color: rgba(196, 208, 10, 0.6);
+}
+.ContenedorRegistro .pink{
+    background-color: rgba(248, 228, 241, 0.6);
+}
+.ContenedorRegistro .orange{
+    background-color: rgba(243, 168, 86, 0.6);
+}
+.ContenedorRegistro .blue{
+    background-color: rgba(69, 174, 196, 0.6);
+}
+.ContenedorRegistro .ContenedorLineas .ContenedorLinea .ContenedorImage{
+    background-color: #ffffff;
+    height: 78%;
+    width: 78%;
+    border-radius: 100%;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+.ContenedorRegistro .ModaYAccesorios{
+    background-image: url('../../Global/Images/img/Modayaccesorios.png');
+}
+.ContenedorRegistro .Belleza{
+    background-image: url('../../Global/Images/img/Belleza.png');
+}
+.ContenedorRegistro .Hogar{
+    background-image: url('../../Global/Images/img/Hogar.png');
+}
+.ContenedorRegistro .Ferreteria{
+    background-image: url('../../Global/Images/img/Ferreteria.png');
+}
+.ContenedorRegistro .Papeleria{
+    background-image: url('../../Global/Images/img/Papeleria.png');
+}
+.ContenedorRegistro .Bisuteria{
+    background-image: url('../../Global/Images/img/Bisuteria.png');
+}
+.ContenedorRegistro .Mascotas{
+    background-image: url('../../Global/Images/img/Mascotas.png');
+}
+.ContenedorRegistro .InsumosMedicos{
+    background-image: url('../../Global/Images/img/Insumos_medicos.png');
+    background-size: 45% !important;
+}
+.ContenedorRegistro .OtrasCategorias{
+    background-image: url('../../Global/Images/img/OtrasCategorias.png');
+}
+
+
+@media(max-width:500px){
+    .ContenedorFormularioRegistro{
+        padding-top: 0px;
+    }
+}
+@media(max-width:600px){
+    .ContenedorRegistro .Col1{
+        /*margin-left: 10px;
+        margin-right: 10px;*/
+     }
+}
+@media (min-width: 1200px){
+    .ContenedorRegistro .Col2{
+        display:flex;
+    }
+    .ContenedorRegistro .Col1{
+       overflow-y: scroll;
+    }
+
+    .ContenedorRegistro .Col2 .CtnImage img{
+		max-width: 300px;
+    }
+    .ContenedorFormularioRegistro{
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+    .ContenedorDatosCuenta .helpText{
+        font-size: xx-small;
+        color: #bbb;
+        height: 20px;
+    }
+}
+
+@media(min-width:1400px){
+    .ContenedorRegistro{
+        padding-top: 68px;
+    }
+    .ContenedorRegistro .Col2 .CtnImage img{
+		max-width: 500px;
+    }
+    .CtnAyuda{
+        width: 100%;
+        color:#777;
+        position: absolute;
+        bottom: 50px;
+        max-width: 300px;
+    }
+}
+

@@ -1,0 +1,109 @@
+.contenedor-home{
+    align-items: flex-start!important;
+    height: 100%!important;
+    min-height: 100vh;
+    flex-direction: column!important;
+}
+
+.contenedor-informacion{
+    margin-block: 15px!important;
+    padding-inline: 100px!important;
+    justify-content: center!important;
+    background: #CAC8C3;
+}
+
+.columna-informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.columna-distribuidor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-block: 10px;
+}
+
+.contenedor-distribuidor{
+    background: #F0F6A3;
+}
+
+.columna-distribuidor h6 {
+    margin-block: 5px;
+    font-size: x-large;
+}
+
+.title-recomendados{
+    color: #535556;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.border-bottom-title{
+    border-bottom: 5px solid #BAB9B7;
+    margin-inline: 20px;
+}
+
+.title-lineas{
+    margin-top: 10px;
+    margin-inline: 20px;
+}
+
+.title-lineas label{
+    color: #525556;
+}
+
+.contenedor-title-linea{
+    width: -webkit-fill-available;
+    padding-top: 10px;
+    margin-inline: 20px;
+}
+
+.ModaYAccesorios-background{
+	background: #D2DE7B;
+}
+ .Belleza-background{
+	background: #EFCDE3;
+}
+ .Hogar-background{
+	background: #D7AA88;
+}
+ .Ferreteria-background{
+	background: #8CC0B8;
+}
+ .Papeleria-background{
+	background: #D2DE7B;
+}
+ .Bisuteria-background{
+	background: #EFCDE3;
+}
+ .Mascotas-background{
+	background: #D7AA88;
+}
+ .InsumosMedicos-background{
+	background: #8CC0B8;
+}
+ .OtrasCategorias-background{
+	background: #D2DE7B;
+}
+
+.container-with-dots {
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .react-multi-carousel-dot-list {
+    bottom: 0px !important;
+  }
+
+  .image-item {
+    padding: 10px;
+  }
+
+  .container {
+    /*margin-top: 20px;*/
+  }

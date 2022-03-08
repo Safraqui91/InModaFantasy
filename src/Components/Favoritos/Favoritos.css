@@ -1,0 +1,118 @@
+.contenedorTitleFavoritos{
+    display: flex!important;
+    justify-content: center!important;
+    margin-block: 20px;
+    width: 100%;
+    background: #C8C7C5;
+}
+
+.cantidad{
+    text-align: center;
+    width: 30%;
+}
+
+.titleFavoritos{
+    background: #EE1483;
+    margin-block: 5px;
+    padding: 8px;
+}
+
+.titleFavoritos h3{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0px;
+}
+
+.imageFavoritos{
+    width: 125px;
+    border: 1px solid black;
+}
+
+.accionesFavoritos svg{
+    margin: 10px;
+    cursor: pointer;
+}
+
+td{
+    text-align: center;
+    vertical-align: middle!important;
+    color: #7F8080;
+}
+
+.contenedorData .table-responsive{
+    height: 500px;
+}
+
+/* width */
+.table-responsive::-webkit-scrollbar {
+    width: 10px!important;
+}
+  
+/* Track */
+.table-responsive::-webkit-scrollbar-track {
+    background: #f1f1f1!important; 
+}
+
+/* Handle */
+.table-responsive::-webkit-scrollbar-thumb {
+    background: #888!important; 
+}
+
+/* Handle on hover */
+.table-responsive::-webkit-scrollbar-thumb:hover {
+    background: #555!important; 
+}
+
+th{
+    text-align: center!important;
+}
+
+.contenedor-main{
+    background: white!important;
+}
+
+.contenedorData{
+    padding-inline: 100px;
+    width: 100%;
+}
+
+.contenedorData hr{
+    width: 100%;
+    border-color: black!important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contenedorData{
+        padding-inline: 0px!important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contenedorData{
+        padding-inline: 0px!important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contenedorData{
+        padding-inline: 100px!important;
+        width: 100%!important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contenedorData{
+        padding-inline: 100px!important;
+        width: 100%!important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

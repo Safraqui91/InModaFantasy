@@ -1,0 +1,16 @@
+.contenedor-boton{
+    margin-block: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  #D61C79;
+    cursor: pointer;
+    padding-inline: 10px;
+}
+
+.contenedor-boton label{
+    cursor: pointer;
+    color: #D61C79;
+    font-weight: bold;
+    font-size: larger;
+}

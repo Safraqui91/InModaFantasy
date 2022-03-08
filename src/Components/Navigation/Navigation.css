@@ -1,0 +1,501 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+    box-sizing: border-box;
+    scrollbar-width: none;
+
+}
+::-webkit-scrollbar {
+	display: none;
+}
+
+/*Navegacion desplegable*/
+.CtnDosNav .row .col > ul{
+	overflow:hidden;
+	list-style:none;
+	margin: 0px;
+}
+
+.SubCategorias{
+	color: #a0a0a0;
+	padding:5px;
+	font-weight: 700;
+	display:block;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+.SubCategorias:hover {
+	color:#e3097e;
+	text-decoration:none;
+}
+
+/*Navegación uno*/
+.CtnNavigation{
+	
+	font-family: 'Open Sans', sans-serif;
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+	top:0px;
+}
+.CtnNavigation .CtnUnoNavigation{
+	width: 100%;
+	background: #000;
+	position: relative;
+}
+.CtnNavigation .CtnUnoNavigation .CtnUnoBuscador {
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+}
+.CtnNavigation .CtnUnoNavigation .CtnUnoBuscador > input{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	height: 25px;
+	border-radius: 20px;
+
+}
+.CtnNavigation .CtnUnoNavigation .CtnUnoBienvenida{
+	color:#fff;
+	text-align: center;
+	height: 100%;
+}
+.CtnNavigation .CtnUnoNavigation .CtnUnoBienvenida > label{
+	margin: 0px;
+ 	margin-top: 1px;
+ 	padding-bottom: 5px;
+}
+.CtnNavigation .CtnUnoNavigation .CtnUnoBienvenida .CtnUnoImg{
+	width: 18px;
+	display: inline-block;
+	margin-left:5px; 
+}
+.CtnNavigation .CtnUnoNavigation .CtnUnoBienvenida .CtnUnoImg a > img{
+	width: 100%;
+	position: relative;
+	top:-2px;
+}
+
+
+
+/* Navegacion dos */
+ .CtnNavigation .CtnDosNavigation{
+ 	background: #fff;
+ }
+ .CtnNavigation .CtnDosNavigation .CtnDosNav {
+	width:100%;
+	background:#fff;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar {
+	display:none;
+}
+ 
+  .CtnNavigation .CtnDosNavigation .CtnDosNav > ul {
+	overflow:hidden;
+	list-style:none;
+	margin: 0px;
+}
+ 
+ .CtnNavigation .CtnDosNavigation .CtnDosNav > ul > li {
+	float:left;
+	padding: 2px;
+}
+ 
+ .CtnNavigation .CtnDosNavigation .CtnDosNav > ul > li > a {
+	color: #a0a0a0;
+	padding:5px;
+	font-weight: 700;
+	display:block;
+	text-decoration:none;
+}
+.CtnNavigation .CtnDosNavigation .CtnDosNav > ul > li > a.active {
+	color:#e3097e;
+} 
+.CtnNavigation .CtnDosNavigation .CtnDosNav > ul > li > a:hover {
+	color:#e3097e;
+}
+.MenuIngreso{
+	float: right !important;
+	height: 100%;
+	margin-top: 1.5px;
+	font-weight: 900;
+}
+
+.MenuIngreso > .CtnCliente > div {
+	display: inline-block;
+}
+.MenuIngreso > .CtnCliente > .CtnClienteImg,
+.MenuIngreso > .CtnCliente > .CtnClienteCarrito > div{
+	width: 18px;
+	display: inline-block;
+	padding: 1px;
+} 
+.MenuIngreso > .CtnCliente > .CtnClienteImg > img,
+.MenuIngreso > .CtnCliente > .CtnClienteCarrito > div > img{
+
+	width: 100%;
+} 
+.MenuIngreso > .CtnCliente > .CtnClienteCarrito{
+	border:1px solid #e3097e;
+	width: 40px;
+	text-align: center;
+	cursor:pointer;
+
+}
+
+.MenuIngreso > .CtnCliente > .CtnClienteCarrito > span{
+	font-style: normal !important;
+}
+
+.MenuIngreso > .CtnCliente > .CtnClienteCarrito > div > img,
+.MenuIngreso > .CtnCliente > .CtnClienteImg > img{
+	position: relative;
+	top:-2px;
+}
+.MenuIngreso > .CtnCliente > .CtnClienteIngreso{
+	padding-left: 5px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+	.MenuIngreso > .CtnClienteFormulario{
+		position: absolute;
+		top:-200px;
+		width: 300px;
+		right: 0px;
+		background: #fff;
+		color: #000;
+		font-size: 15px;
+		padding: 15px;
+		padding-top: 5px;
+		text-align: center;
+		transition: top .5s;
+		z-index: -1;
+	}
+
+	/*Mi estilo*/
+	.InputLogin{
+		display: inline-block;
+		width: 200px;
+		outline: 0px !important;
+		box-shadow: none !important;
+		border:none;
+	}
+
+	hr{
+		margin: 0!important;
+	}
+
+	.buttonGeneral{
+		display: inline-block;
+		padding: 5px;
+		border:1px solid #e3097e;
+		color:#e3097e;
+		background: none;
+		font-weight: 1000;
+		margin: 10px;
+		cursor: pointer;
+	 }
+
+	 .centrarVertical{
+		display: flex !important;
+		align-items: flex-end !important;
+	 }
+
+	 .centrarHorizontal{
+		display: flex !important;
+		justify-content: center !important;
+	 }
+
+	 .labelerror{
+		 color: red;
+		 font-size: smaller;
+		 font-weight: normal;
+	 }
+
+
+	/*.MenuIngreso > .CtnClienteFormulario > span{
+		border-bottom :1px solid #ddd;
+		display: block;
+	}
+	.MenuIngreso > .CtnClienteFormulario > span:nth-child(1) > input:nth-child(2){
+		display: inline-block;
+		width: 200px;
+		outline: 0px !important;
+		box-shadow: none !important;
+		border:none;
+
+
+	}
+	.MenuIngreso > .CtnClienteFormulario > span:nth-child(1) > label{
+		padding-right: 5px; 
+	}
+
+
+	.MenuIngreso > .CtnClienteFormulario > span:nth-child(2) > label{
+		padding-right: 5px;
+	}
+	.MenuIngreso > .CtnClienteFormulario > span:nth-child(2) > input:nth-child(2){
+		display: inline-block;
+		width: 178px;
+		outline: 0px !important;
+		box-shadow: none !important;
+		border:none;
+	}
+
+	.MenuIngreso > .CtnClienteFormulario > a{
+		display: inline-block;
+		padding: 5px;
+		width: 80px;
+		border:1px solid #e3097e;
+		color:#e3097e;
+		background: none;
+		font-weight: 900;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	.MenuIngreso > .CtnClienteFormulario > div {
+		display: inline-block;
+		padding: 5px;
+		width: 80px;
+		border:1px solid #e3097e;
+		color:#e3097e;
+		background: none;
+		font-weight: 900;
+		margin-top: 10px;
+		margin-right: 10px;
+	}*/
+@media screen and (min-width:768px ){
+	.CtnNavigation .CtnUnoNavigation .CtnUnoBienvenida{
+	  text-align: right;
+	}
+	.CtnNavigation .CtnUnoNavigation .CtnUnoBuscador > input{
+
+	height: 22px;
+	text-align: left;
+
+	}
+}
+@media screen and (max-width:800px ) {
+	.MenuIngreso{
+		display: none !important;
+	}
+	.CtnNavigation .CtnDosNavigation .CtnDosNav  {
+		width:45%;
+		left:-100%;
+		height: 100%;
+		margin:0;
+		position: fixed;
+		transition:left 1s;
+		text-align: center;
+		border-top:1px solid #e3097e;
+	}
+	.CtnNavigation .CtnDosNavigation .CtnDosNav > ul{
+		overflow-y: scroll;
+		height: 70%;
+		padding-bottom: 80px !important;
+
+	}
+	.CtnNavigation .CtnDosNavigation .CtnDosNav > ul > li {
+		display:block;
+		float:none;
+		padding: 10px;
+		border-bottom:1px solid #e3097e;
+	}
+ 
+ 	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar {
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+ 
+ 	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu {
+		display:block;
+		padding:10px;
+		width: 100%;
+		background:#fff;
+		color:#e3097e;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		position: relative;
+	}
+ 	
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnNvIcon {
+		text-align: center;
+		font-size:25px;
+		width: 10%;
+		display: inline-block;
+		position: relative;
+		top:-2px;
+	}
+
+
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnCliente{
+		font-size: 14px;
+		top:3px;
+		position: relative;
+		float: right;
+	}
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnCliente > div:nth-child(2),
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnCliente > div:nth-child(3){
+		display: inline-block;
+	}
+	
+
+
+
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnCliente .CtnClienteImg{
+		display: inline-block;
+		width: 28px;
+		padding: 5px;
+		position: relative;
+		top:-4px;
+	}
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnCliente .CtnClienteImg > img{
+		width: 100%;
+	}
+
+
+
+
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnCliente .CtnClienteIngreso{
+		
+		padding-bottom: 5px;
+		padding-top: 5px;
+		margin-right: 5px;
+		color:#000;
+	}
+
+
+
+
+
+
+
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnCliente .CtnClienteCarrito{
+		display: inline-block;
+		width: auto;
+		position: relative;
+		border:1px solid #e3097e;
+		padding: 5px;
+		margin-right: 10px;
+	}
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnCliente .CtnClienteCarrito > span{
+		position: relative;
+		padding-right: 2px;
+		color:#000;
+	}
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnCliente .CtnClienteCarrito > img{
+		width: 20px;
+	}
+
+
+
+
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnClienteFormulario{
+		position: absolute;
+		top:-200px;
+		width: 300px;
+		right: 0px;
+		background: #fff;
+		color: #000;
+		font-size: 15px;
+		padding: 15px;
+		padding-top: 5px;
+		text-align: center;
+		transition: top .5s;
+		z-index: -1;
+	}
+	/*.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnClienteFormulario > span{
+		border-bottom :1px solid #ddd;
+		display: block;
+	}
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnClienteFormulario > span:nth-child(1) > input:nth-child(2){
+		display: inline-block;
+		width: 200px;
+		outline: 0px !important;
+		box-shadow: none !important;
+		border:none;
+
+
+	}
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnClienteFormulario > span:nth-child(1) > label{
+		padding-right: 5px; 
+	}
+
+
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnClienteFormulario > span:nth-child(2) > label{
+		padding-right: 5px;
+	}
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnClienteFormulario > span:nth-child(2) > input:nth-child(2){
+		display: inline-block;
+		width: 178px;
+		outline: 0px !important;
+		box-shadow: none !important;
+		border:none;
+	}
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnClienteFormulario > div{
+		display: inline-block;
+		padding: 5px;
+		width: 80px;
+		border:1px solid #e3097e;
+		color:#e3097e;
+		background: none;
+		font-weight: 900;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	.CtnNavigation .CtnDosNavigation .CtnDosMenu_bar .btn-menu .CtnClienteFormulario > a{
+		display: inline-block;
+		padding: 5px;
+		width: 80px;
+		border:1px solid #e3097e;
+		color:#e3097e;
+		background: none;
+		font-weight: 900;
+		margin-top: 10px;
+		margin-right: 10px;
+	}*/
+}
+
+@media only screen and (max-width: 768px) {
+	.CtnUnoBuscador > input{
+		width: 100% !important;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.CtnUnoBuscador > input{
+		width: 100% !important;
+	}
+}
+
+
+@media screen and (min-width:1024px) {
+	.CtnUnoBuscador > input{
+		border: none;
+		height: 20px !important;
+		width: 300px !important;
+		border-radius: 30px;
+		text-align: left !important;
+		font-size: 10px;
+		margin-left: 0px !important;
+	}
+	.CtnUnoBuscador{
+		height: 100%;
+		display: flex;
+	}
+	.CtnUnoBienvenida{
+		text-align: right !important;
+	}
+
+}

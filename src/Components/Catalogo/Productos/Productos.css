@@ -1,0 +1,317 @@
+/*Im #777*/
+.filtroHome{
+	margin-left: 30px;
+}
+.agotado{
+	position:absolute;
+	font-size:x-large;
+	font-weight:bold;
+	color:#e41685; height:100%;
+	display:flex;justify-content:center; align-items:center; top:0;background: #ffffff85; z-index:1;
+}
+.contenedor{
+	display:flex;
+	flex: 1;
+	justify-content: center;
+    align-items: center;
+	height: 100vh;
+	position: relative;
+	/*overflow-y: scroll;*/
+	background: #eaeaea;
+}
+.row .CtnUnoBuscador > input{
+	border: 1px #ddd solid;
+	height: 20px !important;
+	border-radius: 30px;
+	text-align: left !important;
+	font-size: 10px;
+	margin-left: 0px !important;
+}
+
+.CardProducto .Contenido-Info{
+	display: flex;
+	padding-block: 5px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.Contenido-Descripcion{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.mostrarEnColumnas{
+	display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.Contenido-DescripcionTachar{
+	display: flex;
+	flex-direction: column;
+	text-decoration: line-through;
+}
+
+.Contenido-DescripcionDescuento{
+	display: flex;
+	flex-direction: column;
+	color:#595A5C;
+	font-weight:bold;
+	
+}
+
+.CtnProductos{
+	position: relative;
+	/*max-height: 80vh !important;*/
+
+}
+ .CtnBusquedaProductos{
+	padding: 10px;
+}
+.spinner{
+	width: 80px !important;
+	height: 80px !important;
+	border: .25em solid #44afc559 !important;
+    border-right-color: #44afc5 !important;
+	position: absolute;
+	z-index: 10;
+}
+.CtnBusquedaProductos  .dropdown-menu{
+	min-width: 0px !important;
+	font-size: 13px !important;
+}
+.CtnBusquedaProductos .dropdown-item{
+	padding-left: 8px !important;
+	padding-right: 8px !important;
+}
+/*Im*/
+/*Legend*/
+Legend{
+	background: #fff !important;
+}
+
+Legend .CardProducto .CtnImgCardProducto > div .overlaycard{
+	background: #dbd2b3;
+}
+/*Legend*/
+.CardProducto{
+	width: 100%;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.CardProducto .CtnImgCardProducto > div{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom:-100%;
+	transition:  bottom .5s;
+}
+.CardProducto .CtnImgCardProducto > div .overlaycard{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: .5;
+	background: #dfcfe4;
+}
+.CardProducto .CtnImgCardProducto > div > div:nth-child(2){
+	position: relative;
+}
+
+.CardProducto:hover .CtnImgCardProducto > div {
+	bottom: 0%;
+}
+.CardProducto .CtnImgCardProducto{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+ .CardProducto .CtnDescripcionCard > label{
+	text-align: center;
+	display: block;
+	margin: 0px !important;
+	line-height: 15px;
+}
+ .CardProducto .CtnImgCardProducto > img{
+	width: 100%;
+	background-color: #fff;
+}
+ .CtnBusquedaProductos > div:nth-child(1){
+	font-weight: 900;
+	font-size: 12px;
+}
+ .CtnBusquedaProductos > div:nth-child(1) label{
+	margin: 0px;
+}
+ .CtnBusquedaProductos > div:nth-child(1) > div > .dropdown > button:focus{
+    box-shadow: none;
+}
+ .CtnBusquedaProductos > div:nth-child(1) > div > .dropdown > button{
+	background: none;
+	border:none;
+	border-radius: 0px;
+	width: 145px;
+	color:#777;
+	text-align: left;
+	padding: 0px !important;
+	border-bottom: 1px solid #000;
+	box-shadow:none;
+	font-size: 10px;
+}
+ .CtnBusquedaProductos > div:nth-child(1) > div > .dropdown > button > .IconOrdenar{
+	float: right;
+	position: relative;
+	top:5px;
+	color: #000;
+	font-weight: normal !important;
+}
+ .dropdown-toggle::after{
+	display: none;
+}
+ .CtnBusquedaProductos > div{
+	width: 100%;
+	display: inline-block;
+}
+ .CtnBusquedaProductos{
+	/*margin-bottom: 20px;*/
+}
+ .CtnBusquedaProductos > div:nth-child(2){
+	width: 100%;
+	position: relative;
+	top:-15px;
+	display: inline-block;
+	text-align: right;
+	font-weight: 900;
+	font-size: 10px;
+}
+ .CtnBusquedaProductos > div:nth-child(2) > span{
+	font-size: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+ .CtnBusquedaProductos > div:nth-child(2) > span:nth-child(1),
+ .CtnBusquedaProductos > div:nth-child(2) > span:nth-child(6){
+	cursor: pointer;
+    font-size: 15.5px !important;
+}
+
+ .CtnBusquedaProductos > div:nth-child(2) > span.active{
+	background: #e3097e;
+	color:#fff;
+	border-radius: 100%;
+}
+
+@media (min-width: 700px){
+	.filtroHome{
+		margin-left: 0px;
+	}
+	 .CtnBusquedaProductos > div:nth-child(2) > span:nth-child(1),
+	 .CtnBusquedaProductos > div:nth-child(2) > span:nth-child(6){
+		cursor: pointer;
+	    font-size: 17px !important;
+	}
+	 .CardProducto img{
+		height: auto;
+	}
+	.contenedor{
+		overflow: unset !important;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.filtroHome{
+		margin-left: 0px;
+	}
+	.contenedor{
+		overflow: unset !important;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.filtroHome{
+		margin-left: 0px;
+	}
+}
+@media (min-width: 1200px){
+	/*.spinner{
+		position: absolute;
+		left: 50%;
+		top:50%;
+	}*/
+	.filtroHome{
+		margin-left: 30px;
+	}
+	 .CardProducto{
+		width: 100%;
+	}
+	.contenedor{
+		overflow: scroll !important;
+	}
+	/*AllKiss*/
+	 .CtnProductosLgAllKiss{
+		height: 680px;
+		position: relative;
+		overflow-y: scroll;
+	}
+	/*Lindas*/
+	 .CtnProductosLgLindas{
+		height: 720px;
+		position: relative;
+		overflow-y: scroll;
+	}
+	/*Eileens*/
+	 .CtnProductosLgEileen{
+		height: 750px;
+		position: relative;
+		overflow-y: scroll;
+	}
+	/*Legend*/
+	 .CtnProductosLgLegend{
+		height: 750px;
+		position: relative;
+		overflow-y: scroll;
+	}
+	/*Im*/
+	 .CtnProductosLgIm{
+		height: 755px;
+		position: relative;
+		overflow-y: scroll;
+	}
+	/*FarmaPEt*/
+	 .CtnProductosLgFarmaPets{
+		height: 750px;
+		position: relative;
+		overflow-y: scroll;
+	}
+	/*Francy*/
+	 .CtnProductosLgFrancy{
+		height: 850px;
+		position: relative;
+		overflow-y: scroll;
+	}
+}
+@media (min-width: 1500px){
+	.filtroHome{
+		margin-left: 30px;
+	}
+	 .CtnProductosLg
+	{
+		height: calc(100vh - 142px) !important;
+		/*overflow-y: scroll;*/
+	}
+	 .CardProducto{
+		width: 100%;
+	}
+	.contenedor{
+		overflow: scroll !important;
+	}
+	 .CtnProductosLgAllKiss, .CtnProductosLgFrancy,
+	 .CtnProductosLgLindas, .CtnProductosLgEileen,
+	 .CtnProductosLgLegend, .CtnProductosLgIm,
+	 .CtnProductosLgFarmaPets, .CtnProductosLgFrancy
+	{
+		height:auto;
+	}
+}

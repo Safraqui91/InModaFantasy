@@ -1,0 +1,260 @@
+hr{
+	margin-top: 10px!important;
+	margin-bottom: 10px!important;
+}
+.ContenedorBolsa .CtnDetallePedido{
+	position: relative;
+	height: 400px;
+	overflow-y: scroll;
+}
+.ContenedorBolsa .Col1{
+	position: relative;
+}
+.ContenedorBolsa .Col1 > label{
+	font-weight: 900;
+	color: #626263;
+    font-family: 'Open Sans', sans-serif;
+}
+.ContenedorBolsa .Col1 > label > span{
+	font-weight: 100;
+	font-size: 14px;
+}
+.ContenedorBolsa .CtnDetallePedido .CtnItemPedido{
+	margin-bottom: 5px;
+	width: 50%;
+	padding: 5px;
+	display: inline-block;
+}
+
+.ContenedorBolsa .CtnDetallePedido .CtnItemPedido .CtnImg{
+	width: 100%;
+	position: relative;
+	top: 0px;
+}
+.ContenedorBolsa .CtnDetallePedido .CtnItemPedido .CtnDetProducto{
+	margin-left: 10px;
+	width: 100%;
+}
+.ContenedorBolsa .CtnDetallePedido .CtnItemPedido .CtnDetProducto > label{
+	display: block;
+	font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+	margin-bottom: -21px;
+}
+.ContenedorBolsa .CtnDetallePedido .CtnItemPedido .CtnDetProducto > div button{
+	background: none;
+	border: none;	
+	font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+	margin-right: 10px;
+}
+
+
+.ContenedorBolsa .CtnDetallePedido .CtnItemPedido .CtnButtons{
+	display: block;
+	margin-left: 8px;
+}
+.ContenedorBolsa .CtnDetallePedido .CtnItemPedido .CtnButtons > div{
+	display: inline-block;
+}
+.ContenedorBolsa .CtnDetallePedido .CtnItemPedido .CtnButtons > div > input{
+	border: 0.5px solid #000;
+	outline: none;
+	width: 30px;
+	text-align: center;
+	border-right: none;
+	font-weight: 600;
+	border-left: none;
+}
+.ContenedorBolsa .CtnDetallePedido .CtnItemPedido .CtnButtons > div > button{
+	border: 0.5px solid #000;
+	outline: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: none;
+	font-weight: 900;
+}
+
+.ContenedorBolsa .CtnDetallePedido .CtnItemPedido .CtnImg > img{
+	width: 100%;
+}
+
+.ContenedorBolsa .CtnBolsa{
+	margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.ContenedorBolsa .CtnBolsa .CtnImgBolsa{
+	width: 100%;
+	text-align: right;
+} 
+.ContenedorBolsa .CtnBolsa .CtnImgBolsa > div{
+	width: 140px;
+	display: inline-block;
+}
+.ContenedorBolsa .CtnBolsa .CtnImgBolsa > div > img{
+	width: 100%;
+} 
+
+.ContenedorBolsa .CtnBolsa .CtnResumen{
+	font-weight: 900;
+}
+.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(2){
+		font-size: 12px;
+}
+.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(2) > label:nth-child(1){
+		color:#cdced0;
+}
+.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(2) > label:nth-child(2){
+		color:#000;
+		font-size: 14px;
+		float: right;
+}
+
+.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(3){
+		font-size: 12px;
+		display: inline-block;
+		width: 100%;
+		margin-top: 20px;
+}
+
+.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(3) > button{
+	background: none;
+	height:20px;
+	border:none;
+	font-weight: 900;		
+	color:#cdced0;
+
+}	
+.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(3) > div{
+		
+		float: right;
+		display: inline-block;
+}
+.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(3) .CtnImgCarrito{
+	    width: 20px;
+	    display: inline-block;
+	    margin-right: 10px;
+}
+
+.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(3) label{
+	color:#e52898;
+	cursor: pointer;
+}
+
+.btn-terminar{
+	color:#e52898;
+	border:none;
+	border-color: transparent;
+	font-weight: 900;	
+	background: none;
+}
+
+.btn-terminar:focus{
+	outline:none;
+}
+
+.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(3) button[disabled]{
+	color:#cdced0;
+}
+
+.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(3) .CtnImgCarrito > img{
+	width: 100%;
+}
+
+.ContenedorBolsa .CtnBolsa > hr{
+	border-color:#838383;
+}
+.ContenedorBolsa .CtnBolsa .CtnPedidoProceso > label{
+	font-weight: 900;
+	font-size: 15px;
+
+}
+.ContenedorBolsa .CtnBolsa .CtnPedidoProceso > p{
+	color: #4d4b4f;
+	line-height: 18px;
+	font-size: 13px;
+	font-weight: 600;
+
+}
+
+
+
+@media (min-width: 500px){
+	.ContenedorBolsa .CtnBolsa{
+		padding-left: 50px;
+		padding-right: 50px;
+	}	
+
+	.ContenedorBolsa .CtnDetallePedido .CtnItemPedido{
+		width: 100%;
+		padding-left: 25px;
+		padding-right: 25px;
+		display: flex;
+		flex-direction: row;
+	}
+	.ContenedorBolsa .CtnDetallePedido .CtnItemPedido .CtnImg{
+		width: 300px;
+	}
+	.ContenedorBolsa .CtnDetallePedido .CtnItemPedido .CtnButtons{
+		width: 250px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.ContenedorBolsa .CtnDetallePedido .CtnItemPedido .CtnDetProducto > label{
+	margin-bottom: -15px;
+	}
+	.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(3){
+		margin-top: 50px;
+	}		
+}
+
+@media (min-width: 1000px){
+
+	.ContenedorBolsa .CtnBolsa{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.ContenedorBolsa .CtnBolsa .CtnImgBolsa > div{
+		width: 180px;
+		display: inline-block;
+	}	
+}	
+@media (min-width: 1200px){
+	.ContenedorBolsa .CtnBolsa{
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	.ContenedorBolsa .CtnDetallePedido{
+		height:450px; 
+	}
+
+	.ContenedorBolsa .CtnBolsa .CtnImgBolsa{
+		margin-bottom: 30px;
+	}
+	.ContenedorBolsa .Col1 > label{
+		position: absolute;
+		top: 80px;
+		left: 30px;
+	}
+	.ContenedorBolsa .Col1 > label{
+		font-size: 18px;
+	}
+	.ContenedorBolsa .CtnDetallePedido{
+		margin-top: 130px;
+		margin-bottom: 30px;
+	}
+	.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(2){
+		margin-top: 15px;
+	}
+	.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(2) > label:nth-child(2){
+	
+		font-size: 18px;
+	}
+	.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(3){
+		font-size: 14px;
+	}
+	.ContenedorBolsa .CtnBolsa .CtnResumen > div:nth-child(2){
+		font-size: 14px;
+	}
+}	

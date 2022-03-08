@@ -1,0 +1,25 @@
+.button-im{
+    background: transparent!important;
+    border: hidden!important;
+    color: #CF117F!important;
+    font-weight: bold!important;
+    font-size: small!important;
+}
+
+.button-im-desactivado{
+    background: transparent!important;
+    border: hidden!important;
+    color: #cfcfcf!important;
+    font-weight: bold!important;
+    font-size: small!important;
+}
+
+/*.button-im:hover{
+    background: #CF117F!important;
+    border: hidden!important;
+    color: white!important;
+}*/
+
+.button-im img:hover{
+    color : white!important;
+}

@@ -1,0 +1,135 @@
+/*.contenedor-view{
+    display:flex;
+    margin-top: 100px;
+	justify-content: center;
+    align-items: center;
+	height: 100vh;
+}*/
+
+.row-view{
+    width: 50%;
+}
+
+.row-column-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.contain-recuperar a{
+    text-align: start;
+    color: #525456;
+    font-size: smaller;
+}
+
+.contain-recuperar a:hover{
+    color: #525456;
+}
+
+.title-form{
+    font-weight: bold;
+    font-size: x-large;
+    color: #D71C7A;
+}
+
+.subtitle-form{
+    font-weight: bold;
+    font-size: large;
+}
+
+.label-small{
+    font-size: small;
+}
+
+.label-error{
+    font-size: small!important;
+    color : red!important;
+    font-weight: normal!important;
+}
+
+.padd-10{
+    padding-block: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contenedor-view{
+        /*background: green;*/
+        /*margin-top: 170px;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*height: calc(100vh + 150px);*/
+        padding-bottom: 100px;
+    }
+    .row-view{
+        width: 100%!important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contenedor-view{
+        /*background: greenyellow;*/
+        /*margin-top: 150px;*/
+        /*padding-block: 20px;*/
+    }
+    .row-view{
+        width: 100%!important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contenedor-view{
+        /*background: hotpink;*/
+        /*margin-top: 150px;*/
+        display: flex;
+        justify-content: center;
+    }
+    .row-view{
+        width: 50%!important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contenedor-view{
+        /*background: indigo;*/
+        display:flex;
+        /*margin-top: 200px;*/
+        justify-content: center;
+        align-items: center;
+    }
+    .row-view{
+        width: 50%!important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .contenedor-view{
+        /*background:lightgreen;*/
+        display:flex;
+        /*margin-top: 200px;*/
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+    }
+    .row-view{
+        width: 60%!important;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .contenedor-view{
+        /*background:red;*/
+        display:flex;
+        /*margin-top: 200px;*/
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+    }
+    .row-view{
+        width: 50%!important;
+    }
+}

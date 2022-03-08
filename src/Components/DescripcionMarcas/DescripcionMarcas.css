@@ -1,0 +1,291 @@
+.CtnLineaBanner{
+	margin: 5px;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.CtnImageBanner{
+	width: 50px;
+	height: 50px;
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 70%;
+	border-radius: 50px;
+	border: 5px solid;
+}
+
+.ModaYAccesorios{
+	background-image: url('../../Global/Images/img/Modayaccesorios.png');
+	border-color: #CAD527;
+}
+ .Belleza{
+	background-image: url('../../Global/Images/img/Belleza.png');
+	border-color: #FFDAFF;
+}
+ .Hogar{
+	background-image: url('../../Global/Images/img/Hogar.png');
+	border-color: #F19D4D;
+}
+ .FerreteriaYvehiculos{
+	background-image: url('../../Global/Images/img/Ferreteria.png');
+	border-color: #4EB6CD;
+}
+ .Papeleria{
+	background-image: url('../../Global/Images/img/Papeleria.png');
+	border-color: #CAD527;
+}
+ .Bisuteria{
+	background-image: url('../../Global/Images/img/Bisuteria.png');
+	border-color: #FFDAFF;
+}
+ .Mascotas{
+	background-image: url('../../Global/Images/img/Mascotas.png');
+	border-color: #F19D4D;
+}
+ .InsumosMedicos{
+	background-image: url('../../Global/Images/img/Insumos_medicos.png');
+	border-color: #4EB6CD;
+	background-size: 45% !important;
+}
+ .OtrasCategorias{
+	background-image: url('../../Global/Images/img/OtrasCategorias.png');
+	border-color: #CAD527;
+}
+
+.Titulo {
+	font-style: oblique;
+	font-weight: bold;
+}
+
+.Descripcion p {
+	font-size: smaller;
+	color: #fff;
+}
+
+
+
+.CtnDescripcionMarcas {
+	position: relative;
+	color:#fff;
+	height: 100%;
+}
+.contenedor{
+	display:flex;
+    flex: 1;
+    height: 100vh;
+	overflow-y: scroll;
+	background: #eaeaea;
+}
+.Descripcion{
+	color:#6b686f;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.CtnDescripcionMarcas > div{
+	/*padding:50px;*/
+}
+.CtnDescripcionMarcas > div .CtnImgDescripcion{
+	width: 150px;
+	margin: auto;
+	/*margin-bottom: 10px;*/
+}
+.CtnDescripcionMarcas > div .CtnImgDescripcion > img{
+	width: 100%;
+}
+
+.CtnDescripcionMarcas .CtnAyudaMarca {
+	/*margin-top: 50px; */
+	position: absolute;
+	width: 100%;
+	top: auto !important;
+	bottom:15px !important;
+	left: 0px;
+	padding-left:100px;
+	padding-right: 100px;
+}
+.CtnDescripcionMarcas .CtnAyudaMarca .CtnAyudaImg > div:nth-child(1),
+.CtnDescripcionMarcas .CtnAyudaMarca .CtnAyudaImg > div:nth-child(3){
+border: 1px solid #fff;
+width: 40%;
+display: inline-block;
+}
+.CtnDescripcionMarcas .CtnAyudaMarca .CtnAyudaImg > div:nth-child(2){
+width:20%;
+text-align: center;
+display: inline-block;
+position: relative;
+
+}
+.CtnDescripcionMarcas .CtnAyudaMarca .CtnAyudaImg > div:nth-child(2) > img{
+	width: 45px;
+	position: relative;
+	/*top:-12px;*/
+
+}
+.CtnDescripcionMarcas .CtnAyudaMarca .CtnAyudaTexto{
+	text-align: center;
+	position: relative;
+	/*top:-15px;*/
+	border-bottom: 2px solid #fff;
+	/*height: 30px;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*Allkiss*/
+.CtnDescripcionMarcas .CtnMarcaAllkiss{
+	background: #000;
+	height : 100%;
+	display: flex;
+    align-items: center;
+    text-align: center;
+}
+/*AllKiss*/
+
+/*FarmatPet*/
+.CtnDescripcionMarcas .CtnLineaModaYAccesorios{
+	background: #DBE367;
+	height : 100%;
+	display: flex;
+    align-items: center;
+    text-align: center;
+}
+/*FarmatPet*/
+/*Im*/
+.CtnDescripcionMarcas .CtnLineaBelleza{
+	background: #FFCAFF;
+	height : 100%;
+	display: flex;
+    align-items: center;
+    text-align: center;
+}
+/*Im*/
+/*Legend*/
+.CtnDescripcionMarcas .CtnLineaHogar{
+	background: #F3A655;
+	height : 100%;
+	display: flex;
+    align-items: center;
+    text-align: center;
+}
+.CtnDescripcionMarcas .CtnLineaHogar .CtnDescripcionMarca{
+	color:#6b686f;
+}
+/*Legend*/
+/*Eileen*/
+.CtnDescripcionMarcas .CtnLineaFerreteriaYvehiculos{
+	background: #5CC0DA;
+	height : 100%;
+	display: flex;
+    align-items: center;
+    text-align: center;
+}
+/*Eileen*/
+/*Francy*/
+.CtnDescripcionMarcas .CtnLineaPapeleria{
+	background: #D3DB5E;
+	height : 100%;
+	display: flex;
+    align-items: center;
+    text-align: center;
+}
+.CtnDescripcionMarcas .CtnLineaPapeleria .CtnDescripcionMarca p{
+	color:#8e8987;
+	
+ font-style: normal !important;
+}
+.CtnDescripcionMarcas .CtnLineaPapeleria .CtnImgDescripcion{
+	width: 150px;
+}
+/*Francy*/
+/*Lindas*/
+.CtnDescripcionMarcas .CtnLineaBisuteria{
+	background: #FFCAFF;
+	height : 100%;
+	display: flex;
+    align-items: center;
+    text-align: center;
+}
+/*Lindas*/
+.CtnDescripcionMarcas .CtnLineaMascotas{
+	background: #F3A655;
+	height : 100%;
+	display: flex;
+    align-items: start;
+    text-align: center;
+}
+.CtnDescripcionMarcas .CtnLineaInsumosMedicos{
+	background: #5CC0DA;
+	height : 100%;
+	display: flex;
+    align-items: center;
+    text-align: center;
+}
+.CtnDescripcionMarcas .CtnLineaOtrasCategorias{
+	background: #D3DB5E;
+	height : 100%;
+	display: flex;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width: 1200px){
+
+	.CtnDescripcionMarcas .CtnAyudaMarca{
+		position: relative;
+	}/*
+	.CtnDescripcionMarcas > div{
+		padding-left:150px;
+		padding-right: 150px;
+	}*/
+}
+@media (min-width: 1200px){
+	.CtnDescripcionMarcas .CtnAyudaMarca{
+		/*position: relative;*/
+		bottom: 15px;
+		/*top:50px;
+		margin-bottom: 25px !important;*/
+	}
+	.CtnDescripcionMarcas .CtnAyudaMarca .CtnAyudaImg > div:nth-child(1),
+	.CtnDescripcionMarcas .CtnAyudaMarca .CtnAyudaImg > div:nth-child(3){
+	width: 45%;
+	}
+	.CtnDescripcionMarcas .CtnAyudaMarca .CtnAyudaImg > div:nth-child(2){
+	width:10%;
+	}
+	.CtnDescripcionMarcas .CtnAyudaMarca .CtnAyudaImg > div:nth-child(2) > img{
+	width:35px;
+	}
+
+}
+@media (min-width: 1500px){
+
+ 	.CtnDescripcionMarcas > div{
+	height: calc(100vh - 400px);
+	}
+	/*.CtnDescripcionMarcas > div{
+		padding-left:100px;
+		padding-right: 100px;
+	}
+	.CtnDescripcionMarcas > div{
+		padding-top: 100px;
+		padding-left:100px;
+		padding-right: 100px;
+	}*/
+	.CtnDescripcionMarcas{
+		position: relative;
+	}
+	.CtnDescripcionMarcas .CtnAyudaMarca{
+		position: absolute;
+		width: 100%;
+		top: auto !important;
+		bottom:15px !important;
+		left: 0px;
+		padding-left:100px;
+		padding-right: 100px;
+
+	}
+}

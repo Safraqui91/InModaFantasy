@@ -1,0 +1,207 @@
+
+.CtnMenuProductosMarca{
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ border:1px solid #ddd;
+ position: fixed !important;
+ top:122px;
+ width: 200px;
+ background: #fff;
+ padding-left: 10px;
+ padding-right: 10px;
+ height: 100%;
+ left: -300px;
+ transition: left .5s;
+ z-index: 1;
+}
+
+@keyframes example {
+    0%   {left:-100px;}
+    100%  {left:0;}
+}
+
+/*.next:active{
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+}*/
+
+.lista{
+    position: relative;
+}
+.CtnMenuProductosMarca > span{
+    position: absolute;
+    border:1px solid #ddd;
+    right: -35px;
+    top:-1px;
+    padding: 8px; 
+    background: #fff;
+     border-radius: 0px 40px 40px 0px;
+
+}
+.CtnCategorias small{
+    font-size: 10px;
+    display: block;
+}
+.CtnMenuProductosMarca .CtnCategorias{
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    padding: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+.CtnMenuProductosMarca ul > li{
+    border-bottom: 1px solid #ddd;
+    color:#777;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.CtnCategorias li{
+    width: 100%;
+    color:#777;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.CtnMenuProductosMarca .CtnMenu{
+ overflow-y: scroll;
+ max-height: 70vh; /*calc(80% - 140px);*/
+}
+.CtnMenuProductosMarca ul > li.active{
+    color:#000;
+    font-weight: 900;
+
+}
+.CtnMenuProductosMarca .card-header{
+    border: none;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+.CtnMenuProductosMarca .accordion .card{
+    border:none !important;
+    padding: 0px;
+    border-radius: 0px;
+
+}
+.CtnMenuProductosMarca .card-body{
+    padding: 1px;
+}
+.CtnMenuProductosMarca > span > .IconFlecha{
+    position: relative;
+    top:-2.5px;
+}
+.CtnMenuProductosMarca .CtnImgMenuEmpresa{
+    width: 180px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.CtnMenuProductosMarca .CtnImgMenuEmpresa > img {
+    width: 100%;
+}
+.CtnMenuProductosMarca .CtnMenu .TextoMarca > p{
+ margin-top: 80px;
+ border-bottom: 1px solid #000;
+ line-height: 20px;
+ display: none;
+ font-family: 'Open Sans', sans-serif;
+}
+
+.CtnMenuProductosMarca > span:active {
+    transition: width 2s, height 4s;
+}
+
+@media only screen and (max-width: 600px) {
+    .CtnMenuProductosMarca{
+        top:88px;
+        background: #ffffffed;
+        top: 0px;
+        height: 100%;
+        z-index: 10;
+        width: 300px;
+   }
+   .CtnMenuProductosMarca .CtnMenu {
+        max-height: 100vh;
+        width: 100%;
+        text-align: center;
+    }
+    .CtnMenuProductosMarca > span {
+        top: 150px;
+    }
+}
+
+@media (min-width: 600px){
+    .CtnMenuProductosMarca{
+        top:88px;
+        background: #ffffffed;
+        top: 0px;
+        height: 100%;
+        z-index: 10;
+        width: 300px;
+   }
+   .CtnMenuProductosMarca .CtnMenu {
+        max-height: 100vh;
+        width: 100%;
+        text-align: center;
+    }
+    .CtnMenuProductosMarca > span {
+        top: 150px;
+    }
+}
+
+@media (min-width: 1200px){
+   .CtnMenuProductosMarca
+   {
+    top:68px;
+   }
+   .CtnMenuProductosMarca{
+    position: relative !important;
+    border: none;
+    left: 0px;
+    top:0px;
+    width: 100%;  
+    z-index: 0;
+    height: 100%;
+   }
+   .CtnMenuProductosMarca .CtnMenu .TextoMarca > p{
+     display: block;
+     font-size: 12px;
+     line-height: 15px;
+    }
+   
+
+    .CtnMenuProductosMarca{
+        padding-top: 25px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .CtnAcordeonCategorias ul{
+        overflow-y: scroll;
+        height: auto;
+        cursor: pointer;
+    }
+    .CtnMenuProductosMarca .CtnImgMenuEmpresa{
+        width: 160px;
+    }
+
+    .CtnMenuProductosMarca .CtnMenu{
+        height: 100%/*calc(100% - 122px);*/
+    }
+    .CtnMenuProductosMarca .CtnMenu .CtnAcordeonCategorias{
+        /*position: relative;*/
+        height: /*calc(100%);*/100%;
+    }
+    .CtnMenuProductosMarca .CtnMenu .CtnAcordeonCategorias .TextoMarca{
+        /*position: absolute;*/
+        bottom: 0px;
+    }
+}
+
+@media (min-width: 1500px){
+    .CtnAcordeonCategorias ul{
+        height: 400px;
+    }
+}

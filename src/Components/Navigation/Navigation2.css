@@ -1,0 +1,192 @@
+*{
+	padding: 0px;
+	margin: 0px;
+    box-sizing: border-box;
+    scrollbar-width: none;
+    font-style: oblique;
+}
+
+label{
+    margin-bottom: 0px!important;
+}
+p{
+    margin-bottom: 0px!important;
+}
+
+.padd-cero{
+    padding: 0px!important;
+}
+
+#Nav3{
+    background: white;
+}
+
+.row{
+    width: 100%;
+    margin: 0px !important;
+    flex-wrap: wrap;
+}
+
+.contain-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.contain-cuenta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.contain-cuenta a{
+    font-weight: bold;
+    color: black;
+    font-size: small;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.icon-persona{
+    height: 15px!important;
+    width: auto;
+    margin-inline-end: 5px;
+}
+
+.contain-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contain-end{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.contain-envios{
+    display: flex;
+    flex-direction: column;
+    color: #a0a0a0;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+.nav-politicas{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #A7A7A6;
+}
+
+.nav-politicas p {
+    color: #525455;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.nav-redes{
+    background: #040505;
+    color: white;
+    display: flex;
+    padding-block: 4px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-redes a img{
+    width: 20px; 
+}
+.nav-redes a{
+    margin-inline: 5px;
+}
+.nav-redes label{
+    font-size: x-small;
+    margin-bottom: 0;
+}
+
+.contain-button{
+    border: 1px solid #D71C7A;
+    padding: 2px;
+    margin-inline: 5px;
+    cursor: pointer;
+}
+.contain-button label{
+    font-style: normal !important;
+    font-size: small;
+    font-weight: bold;
+}
+.contain-button img{
+    width: 15px;
+}
+
+.lineas{
+    background: #C8C7C5;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #Nav4{
+        display: none;
+    }
+    #envios, #cuenta, #logo{
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #Nav4{
+        display: none;
+    }
+    #envios, #cuenta, #logo{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #Nav4{
+        display: none;
+    }
+    #envios, #cuenta, #logo{
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #envios, #cuenta, #logo{
+        display: flex;
+    }
+    #Nav4{
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #Nav4{
+        display: flex;
+    }
+    #envios , #cuenta, #logo{
+        display: flex;
+    }
+}

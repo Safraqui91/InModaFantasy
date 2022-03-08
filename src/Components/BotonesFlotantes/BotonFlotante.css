@@ -1,0 +1,53 @@
+.btnFloat{
+    border: 5px solid #D2127F;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255);
+    transition: 0.25s;
+}
+
+.containerLabel{
+    width: min-content;
+    text-align: center;
+    font-size: x-small;
+    color: #515556;
+}
+
+.btnFloat:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    background: rgb(255, 255, 255); /*en caso de querer cambiar el color de fondo*/
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .containerButtons{
+        bottom: 2%;
+        right: 5px;
+        position: fixed;
+        z-index: 5;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .containerButtons{
+        bottom: 20%;
+        right: 25px;
+        position: fixed;
+        z-index: 5;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

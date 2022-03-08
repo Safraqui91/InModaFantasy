@@ -1,0 +1,63 @@
+.CtnCatalogo{
+	position: relative;
+	top:122px;
+  /*max-width: 1800px;*/
+  margin: auto;
+}
+.CtnContent{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.container-fluid{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.container-fluid > .row{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+.container-fluid > .row > .col-12,
+.container-fluid > .row > .col-11,
+.container-fluid > .row > .col-10,
+.container-fluid > .row > .col-9,
+.container-fluid > .row > .col-8,
+.container-fluid > .row > .col-7,
+.container-fluid > .row > .col-6,
+.container-fluid > .row > .col-5,
+.container-fluid > .row > .col-4,
+.container-fluid > .row > .col-3,
+.container-fluid > .row > .col-2,
+.container-fluid > .row > .col-1{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+@media (min-width: 700px){
+  .CtnCatalogo{
+  	top:91px;
+  } 
+}
+@media only screen and (max-width: 600px){
+  .CtnContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
+@media (min-width: 1200px){
+  .CtnCatalogo{
+  	top:0px;
+  } 
+  .CtnCatalogo > .container-fluid{
+  	height: calc(100vh - 68px);
+  }
+  .CtnCatalogo > .container-fluid .row{
+    height: calc(100vh - 68px);
+  }
+
+  .CtnCatalogo > .container-fluid .row .CtnCD{
+   height: 100%;
+  }
+}
+

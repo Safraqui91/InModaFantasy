@@ -1,0 +1,149 @@
+.ContinerImages{
+    height: auto;
+    padding : 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContinerImagesModal{
+    border: 1px solid #CACACA;
+    border-radius: 10px;
+    margin-inline: 5px;
+}
+
+.ContinerInfo{
+    height: 50vh;
+    padding: 10px!important;
+}
+
+.Contenedor-detalle{
+	display: flex;
+	flex-direction: column;
+    padding : 10px
+}
+
+.descripcion{
+    margin : 0px!important;
+    font-weight: bold;
+}
+
+.Contenedor-logo{
+	display: flex;
+	justify-content: center;
+}
+
+.rowInfo{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.columnInfo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.colInfo{
+    display : flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.colInfo label{
+    display : flex;
+    flex : 1;
+    font-size: small;
+    font-weight: bold;
+    color: #595A5C;
+}
+
+.rowInfo label{
+    display : flex;
+    flex : 1;
+    font-size: small;
+    font-weight: bold;
+    color: #595A5C;
+}
+
+.rowInfo p{
+    display : flex;
+    flex : 1;
+    font-size: small;
+    color: #595A5C;
+}
+
+.rowInfoSpace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btnFav{
+    padding-inline : 5px;
+    background: #CF117F!important;
+    color : white;
+    font-size: x-small;
+    height: min-content;
+    margin-left: 5px;
+}
+
+.conteinerFav{
+    cursor : pointer;
+    display : flex;
+    flex-direction: row;
+}
+
+.close{ 
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    font-family: unset;
+    z-index: 1;
+    font-style: normal;
+    font-size: large!important;
+    font-weight: bold!important;
+    color: #626263;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.textArea{
+    border: 1px solid #EAE8E6;
+    border-radius: 5px;
+}
+
+.containerComplement{
+    display :flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.containerLink{
+    text-align: end;
+    font-size: small;
+}
+
+.containerLinkBold{
+    text-decoration: underline;
+    cursor : pointer;
+    font-weight: bold;
+    text-align: end;
+    font-size: small;
+}
+
+.dropdown{
+    flex : 1;
+}
+
+#dropdown-basic-button{
+    color: black;
+    background: transparent;
+    border-color: transparent;
+}
